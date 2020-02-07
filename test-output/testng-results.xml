@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="306214" started-at="2020-02-07T18:04:50Z" finished-at="2020-02-07T18:09:57Z">
+    <groups>
+    </groups>
+    <test name="all-packages" duration-ms="306214" started-at="2020-02-07T18:04:50Z" finished-at="2020-02-07T18:09:57Z">
+      <class name="DriverScript.Base">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DriverScript.Base@3f49dace]" name="setUp" is-config="true" duration-ms="305283" started-at="2020-02-07T23:34:50Z" finished-at="2020-02-07T23:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverScript.Base@3f49dace]" name="tearDown" is-config="true" duration-ms="816" started-at="2020-02-07T23:39:56Z" finished-at="2020-02-07T23:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DriverScript.Base -->
+      <class name="Scenarios.Scenario3">
+        <test-method status="PASS" signature="verifyAppSource()[pri:3, instance:Scenarios.Scenario3@1e397ed7]" name="verifyAppSource" duration-ms="36" started-at="2020-02-07T23:39:56Z" finished-at="2020-02-07T23:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppSource -->
+      </class> <!-- Scenarios.Scenario3 -->
+      <class name="TestCases.Scenario2">
+        <test-method status="PASS" signature="verifyAppUrl()[pri:2, instance:TestCases.Scenario2@56ac3a89]" name="verifyAppUrl" duration-ms="14" started-at="2020-02-07T23:39:56Z" finished-at="2020-02-07T23:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppUrl -->
+      </class> <!-- TestCases.Scenario2 -->
+      <class name="TestCases.Scenario1">
+        <test-method status="PASS" signature="verifyAppTitle()[pri:1, instance:TestCases.Scenario1@490ab905]" name="verifyAppTitle" duration-ms="19" started-at="2020-02-07T23:39:56Z" finished-at="2020-02-07T23:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppTitle -->
+      </class> <!-- TestCases.Scenario1 -->
+    </test> <!-- all-packages -->
+  </suite> <!-- Suite -->
+</testng-results>
